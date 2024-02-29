@@ -1,0 +1,85 @@
+.intro {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 92px 0 0;
+  max-width: 1017px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: 0em;
+  margin: 0;
+}
+
+.intro__content {
+  margin: 40px 295px 0 0;
+}
+
+.intro__quote {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 722px;
+}
+
+.intro__text-quote {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0;
+}
+
+.intro__text_author {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  font-style: normal;
+  letter-spacing: 0em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.intro__text-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 42px 0 0;
+}
+
+@media screen and (max-width: 1008px) {
+  .intro {
+    margin: 55px 24px 0;
+  }
+  .intro__content {
+    margin: 15px 0 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .intro {
+    margin: 44px 16px 0;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .intro__content {
+    margin: 9px 0 0;
+  }
+  .intro__text-quote {
+    line-height: 30px;
+  }
+  .intro__text_author {
+    bottom: -30px;
+  }
+  .intro__text-info {
+    margin-top: 32px;
+  }
+}
