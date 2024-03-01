@@ -1,4 +1,4 @@
-.gallery__container-grid {
+.gallery__container_grid {
   display: grid;
   align-self: center;
   grid-template-columns: repeat(4, 1fr);
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1190px) {
-  .gallery__container-grid {
+  .gallery__container_grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 16px;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 604px) {
-  .gallery__container-grid {
+  .gallery__container_grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
     grid-gap: 12px;
